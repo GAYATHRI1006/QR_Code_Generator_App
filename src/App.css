@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "National Park",sans-serif;
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-container h1{
+    font-weight: 600;
+    font-family: 18px;
+    color:  #093958;
+    border-bottom: 1px solid #f1efef;
+    padding: 10px 0px;
+
+}
+
+.qr-code-image{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color: #093958;
+    font-size: 15px;
+    font-weight: 500;
+}
+input[type="text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #093958 ;
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.generate-button{
+    background-color: #3498db;
+
+}
+.generate-button:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+.download-button{
+    background-color: #27ae60;
+    margin-left: 20px;
+}
+.download-button:hover{
+    background-color: #219a52;
+}
+.footer{
+    margin-top: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: #093958;
+
+}
