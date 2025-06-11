@@ -30,7 +30,7 @@ GitHub: [GAYATHRI1006](https://github.com/GAYATHRI1006)
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/GAYATHRI1006/Digital_Clock_using_React.git
+git clone https://github.com/GAYATHRI1006/QR_Code_Generator_App.git
 ```
 
 ### 2. Install Dependencies
