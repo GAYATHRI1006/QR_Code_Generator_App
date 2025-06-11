@@ -1,12 +1,53 @@
-# React + Vite
+# React QR Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple QR Code Generator built using React that allows users to generate and download QR codes with custom data and size.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Live Demo](https://qr-code-generator-app-sample.vercel.app/)  
 
-## Expanding the ESLint configuration
+## Developed By  
+**Gayathri G**  
+GitHub: [GAYATHRI1006](https://github.com/GAYATHRI1006)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+
+![QR Code Generator Screenshot](qr1.png)
+
+![QR Code Generator Screenshot](qr2.png)
+
+![QR Code Generator Screenshot](qr3.png)
+
+## Features
+
+- Generate QR codes instantly based on input text  
+- Customize QR code size  
+- Download the generated QR code image  
+- Responsive and easy-to-use UI  
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/GAYATHRI1006/Digital_Clock_using_React.git
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the App
+
+```bash
+npm run dev
+```
+
+## Tech Stack
+
+- **React**
+- **JavaScript**
+- **HTML5**
+- **CSS3**            
